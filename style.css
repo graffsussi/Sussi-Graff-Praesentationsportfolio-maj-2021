@@ -78,19 +78,21 @@ p {
   color: white;
 }
 
-image 'sushi_giraf_logo.png' {
+img 'sushi_giraf_logo.png' {
   padding: 10px;
   ???
 }
 
+.grid {
+
+}
+
 /* HEAVEN */
 
-.heaven {
+/* .heaven {
   background-color: #0174CC; 
   height: 2000;
-}
+  width: 100%
 
-.heaven p {
-  display: flex;
-  flex-direction: column;
-}
+} */
+
