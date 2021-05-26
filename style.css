@@ -61,7 +61,7 @@ li a {
 /* COVER */
 
 .cover {
-  height: 500px;
+  height: 750px;
   background-color: #E3CD26;
   display: flex;
   flex-direction: row;
@@ -84,3 +84,13 @@ image 'sushi_giraf_logo.png' {
 }
 
 /* HEAVEN */
+
+.heaven {
+  background-color: #0174CC; 
+  height: 2000;
+}
+
+.heaven p {
+  display: flex;
+  flex-direction: column;
+}
