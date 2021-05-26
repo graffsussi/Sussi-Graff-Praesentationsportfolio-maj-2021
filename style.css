@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 30px;
+  }
+
+@import {
+  url('http://fonts.cdnfonts.com/css/bahnschrift');
+  font-family: 'Bahnschrift', sans-serif;
+}
+
+.brand {
+  color: white;
+  text-align: left;
+  font-family: 'Bahnschrift', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nav ul il {
+  padding: 0px 20px;
+}
+
+.nav ul li a {
+  color: white;
+  padding: 0px 10px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li a {
+  list-style-type: none;
+}
+
+.cover {
+  height: 500px;
+  background-color: #E3CD26;
+  display: flex;
+  flex-direction: row;
+
+}
+
+h1 {
+  font-family: 'Bahnschrift', sans-serif;
+  color: white;
+
+}
