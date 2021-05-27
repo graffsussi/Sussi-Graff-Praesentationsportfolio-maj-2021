@@ -235,6 +235,14 @@ grid-area: produkt6;
   color: white;
 }
 
+.contact-wrap {
+  /* justify-content: center;
+  align-items: center; */
+  padding: 14rem 4rem;
+  width: 50%;
+  margin: auto;  
+}
+
 .form {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -242,14 +250,14 @@ grid-area: produkt6;
   grid-template-areas: 
   "felter"
   "knap";
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
 }
 
 .felter {
-  justify-content: center;
-  align-items: center;
-  /* Hvorfor vil felter ikke centreres? */
+  /* justify-content: center;
+  align-items: center; */
+  /* Hvorfor vil felter ikke centreres? Jeg har prøver fire steder nu */
 }
 
 input[type=text], select, textarea {
@@ -260,6 +268,8 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   border: 1px solid #27282B;
   border-radius: 2rem; 
+  /* justify-content: center;
+  align-items: center; */
 }
 
 input[type=submit] {
@@ -276,8 +286,4 @@ input[type=submit]:hover {
   /* Husk at ændr efter du har lavet graduering. */
 }
 
-.contact-wrap {
-  border-radius: 5px;
-  padding: 20px;
-}
 
