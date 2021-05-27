@@ -1,6 +1,6 @@
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0rem;
+  padding: 0rem;
 }
 
 /* SITE HEADER  */
@@ -10,13 +10,17 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #111;
-  padding: 30px;
+  padding: 1rem;
   }
 
 @import {
   url('http://fonts.cdnfonts.com/css/bahnschrift');
   font-family: 'Bahnschrift', sans-serif;
 }
+
+/* text {
+  font-family: 'Bahnschrift';
+} */
 
 .brand {
   color: white;
@@ -63,6 +67,10 @@ li a {
 /* COVER */
 
 .cover-container {
+  background-color: #E3CD26;  
+  font-family: 'Bahnschrift';
+  color: white;
+  padding: 40px 60px 40px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
@@ -70,8 +78,14 @@ li a {
   grid-template-areas: 
   ". cover-img cover-heading ."
   ". cover-img cover-info .";
-  padding: 20px;
-  background-color: #E3CD26;  
+}
+
+p {
+  font-family: 'Bahnschrift';
+}
+
+h1 {
+  font-family: 'Bahnschrift';
 }
 
 /* .aside {
@@ -84,6 +98,7 @@ li a {
 
 .cover-img {
   grid-area: cover-img;
+  font-family: 'Bahnschrift';
 }
 
 .cover-heading {
@@ -94,7 +109,18 @@ li a {
   grid-area: cover-info;
 }
 
-
+.about-container {
+  display: grid;
+  background-color: #0174CC;  
+  color: white;
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1em;
+  grid-template-areas: 
+  ". ";
+}
 
 
 
