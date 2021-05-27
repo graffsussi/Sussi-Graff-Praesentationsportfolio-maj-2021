@@ -155,7 +155,7 @@ header {
 
 .portfolio-container {
   background-color: #0174CC;
-  /* Hvordan laver man en gradient?   */
+  /* Hvordan laver man en gradient? */
 }
 
 .portfolio-wrap {
@@ -230,29 +230,42 @@ grid-area: produkt6;
 
 .contact-container {
   background-color: #008F00;
+  font-family: 'Bahnschrift';
+  /* Hvordan ændres fonten inde i felterne ikke hvis jeg ligger font-family her? */
+  color: white;
 }
 
 .form {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 3rem;
+  grid-template-areas: 
+  "felter"
+  "knap";
   justify-content: center;
   align-items: center;
-  font-family: 'Bahnschrift';
+}
+
+.felter {
+  justify-content: center;
+  align-items: center;
+  /* Hvorfor vil felter ikke centreres? */
 }
 
 input[type=text], select, textarea {
-  width: 50%;
   padding: 1rem;
+  margin: 1rem 0rem;
+  width: 50%;
+  resize: none;
+  box-sizing: border-box;
   border: 1px solid #27282B;
   border-radius: 2rem; 
-  box-sizing: border-box;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  resize: none;
 }
 
 input[type=submit] {
   background-color: #007000;
   color: white;
-  padding: 12px 20px;
+  padding: 1rem 1.5rem;
   border: none;
   border-radius: 2rem;
   cursor: pointer;
@@ -260,6 +273,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+  /* Husk at ændr efter du har lavet graduering. */
 }
 
 .contact-wrap {
