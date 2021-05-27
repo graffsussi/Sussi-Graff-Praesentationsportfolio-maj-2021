@@ -2,6 +2,7 @@
   margin: 0rem;
   padding: 0rem;
   border: 1px solid black;
+  font-family: 'Bahnschrift';
 }
 
 /* HEADER */
@@ -22,7 +23,6 @@ header {
 .brand {
   text-align: left;
   padding: 0rem 1rem;
-  font-family: 'Bahnschrift', sans-serif;
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
@@ -33,7 +33,6 @@ header {
   display: flex;
   flex-direction: row;
   text-align: center;
-  font-family: 'Bahnschrift';
   list-style-type: none;
   text-decoration: none;
   /* Hvorfor skal noget af det her i nav ul frem for nav ul li a? */
@@ -61,7 +60,6 @@ header {
   padding: 14rem 4rem;
   width: 50%;
   margin: auto;  
-  font-family: 'Bahnschrift';
   color: white;
 }
 
@@ -93,7 +91,7 @@ header {
   padding: 14rem 4rem;
   width: 50%;
   margin: auto;  
-  font-family: 'Bahnschrift';
+  
   color: white;
 }
 
@@ -114,7 +112,6 @@ header {
   width: 50%;
   margin: auto;  
   text-align: center;
-  font-family: 'Bahnschrift';
   color: white;
 }
 
@@ -130,7 +127,6 @@ header {
   padding: 14rem 4rem;
   width: 50%;
   margin: auto;  
-  font-family: 'Bahnschrift';
   text-align: center;
   color: white;
 }
@@ -140,7 +136,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* Hvordan får jeg lavet plads mellem de to ikoner? */
+  /* Hvordan får jeg lavet plads mellem de to ikoner? Husk at rette footer. */
 }
 
 .CH-icon {
@@ -165,7 +161,6 @@ header {
   padding: 14rem 4rem;
   width: 50%;
   margin: auto;  
-  font-family: 'Bahnschrift';
   text-align: center;
   color: white;
 }
@@ -217,7 +212,6 @@ grid-area: produkt6;
   padding: 14rem 4rem;
   width: 50%;
   margin: auto;  
-  font-family: 'Bahnschrift';
   text-align: center;
   color: white;
 } 
@@ -230,8 +224,6 @@ grid-area: produkt6;
 
 .contact-container {
   background-color: #008F00;
-  font-family: 'Bahnschrift';
-  /* Hvordan ændres fonten inde i felterne ikke hvis jeg ligger font-family her? */
   color: white;
 }
 
@@ -243,7 +235,7 @@ grid-area: produkt6;
 
 .contact-wrap h1 {
   text-align: center;
-  Hvordan får jeg resten centreret?
+  /* Hvordan får jeg resten centreret? */
 }
 
 input[type=text], select, textarea {
@@ -270,4 +262,28 @@ input[type=submit]:hover {
   /* Husk at ændr efter du har lavet graduering. */
 }
 
+/* FOOTER */
 
+footer {
+  background-color: #27282B;  
+}
+
+.footer-wrap {
+  justify-content: center;
+  align-items: center;
+  padding: 14rem 4rem;
+  width: 50%;
+  margin: auto;  
+  text-align: center;
+  color: white;
+}
+
+.some-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* Kig lige på det her med at få plads mellem tingene. */
+  /* Hvordan får jeg lavet plads mellem de to ikoner? Husk at ret det andet sted. */
+}
