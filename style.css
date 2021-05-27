@@ -120,18 +120,15 @@ header {
 
 /* COLLAB */
 
-.collab-container {
-  background-color: #0174CC;  
-}
-
-.collab-wrap {
+/* .collab-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
-  grid-template-rows: auto;
+  grid-template-rows: 1fr 1fr;
   grid-template-areas: 
-  "cover-img cover-heading"
-  "cover-img cover-info";
+  "collab-heading collab-heading"
+  "collab-icons collab-icons"
+  "CH-icon FIUK-icon";
   padding: 14rem 4rem;
   width: 50%;
   margin: auto;  
@@ -141,7 +138,8 @@ header {
 
 .collab-heading {
   grid-area: collab-heading;
-}
+  text-align: center;
+} 
 
 .collab-icons {
   grid-area: collab-icons;
@@ -153,4 +151,38 @@ header {
 
 .FIUK-icon {
   grid-area: FIUK-icon;
+} */
+
+.collab-container {
+  background-color: #0174CC;  
+}
+
+.collab-wrap {
+  justify-content: center;
+  align-items: center;
+  padding: 14rem 4rem;
+  width: 50%;
+  margin: auto;  
+  font-family: 'Bahnschrift';
+  text-align: center;
+  color: white;
+}
+
+.collab-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  padding: 0rem 5rem;
+  /* Hvordan får jeg iconerne centreret med padding? */
+}
+
+.CH-icon {
+  grid-area: CH-icon;
+  padding: 1rem;
+}
+
+.FIUK-icon {
+  grid-area: FIUK-icon;
+  padding: 1rem;
 }
