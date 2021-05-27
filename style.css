@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  background-color: #111;
+  background-color: #27282B;
 }
   
 @import {
@@ -113,8 +113,8 @@ header {
   padding: 14rem 4rem;
   width: 50%;
   margin: auto;  
-  font-family: 'Bahnschrift';
   text-align: center;
+  font-family: 'Bahnschrift';
   color: white;
 }
 
@@ -154,10 +154,12 @@ header {
 /* PORTFOLIO */
 
 .portfolio-container {
-  background-color: #0174CC;  
+  background-color: #0174CC;
+  /* Hvordan laver man en gradient?   */
 }
 
 .portfolio-wrap {
+  
   justify-content: center;
   align-items: center;
   padding: 14rem 4rem;
@@ -167,3 +169,101 @@ header {
   text-align: center;
   color: white;
 }
+
+.portfolio-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 3rem;
+  grid-template-areas: 
+  "produkt1 produkt2"
+  "produkt3 produkt4"
+  "produkt5 produkt6";
+}
+
+.produkt1 {
+grid-area: produkt1;
+}
+
+.produkt2 {
+grid-area: produkt2;
+}
+
+.produkt3 {
+grid-area: produkt3;
+}
+
+.produkt4 {
+grid-area: produkt4;
+}
+
+.produkt5 {
+grid-area: produkt5;
+}
+
+.produkt6 {
+grid-area: produkt6;
+}
+
+/* ACTION */
+
+.action-container {
+  background-color: #008F00;  
+}
+
+.action-wrap {
+  justify-content: center;
+  align-items: center;
+  padding: 14rem 4rem;
+  width: 50%;
+  margin: auto;  
+  font-family: 'Bahnschrift';
+  text-align: center;
+  color: white;
+} 
+
+.action-wrap p {
+  margin: 2rem 0rem;
+}
+
+/* CONTACT */
+
+.contact-container {
+  background-color: #008F00;
+}
+
+.form {
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bahnschrift';
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 1rem;
+  border: 1px solid #27282B;
+  border-radius: 2rem; 
+  box-sizing: border-box;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  resize: none;
+}
+
+input[type=submit] {
+  background-color: #007000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact-wrap {
+  border-radius: 5px;
+  padding: 20px;
+}
+
