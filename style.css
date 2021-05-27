@@ -3,6 +3,10 @@
   padding: 0rem;
 }
 
+/* .html {
+font-size: 62.5%
+} */
+
 /* SITE HEADER  */
 
 header {
@@ -27,8 +31,8 @@ header {
   text-align: left;
   font-family: 'Bahnschrift', sans-serif;
   font-weight: bold;
-  font-size: 30px;
-  padding: 0px 10px;
+  font-size: 2rem;
+  padding: 0rem 1rem;
   text-decoration: none;
 }
 
@@ -53,7 +57,7 @@ header {
 
 .nav ul li a {
   color: white;
-  padding: 0px 10px;
+  padding: 0rem 1rem;
   list-style-type: none;
   text-decoration: none;
 }
@@ -66,18 +70,23 @@ li a {
 
 /* COVER */
 
+.wrap {
+  width: 50%;
+  margin: auto;  
+}
+
 .cover-container {
   background-color: #E3CD26;  
   font-family: 'Bahnschrift';
   color: white;
-  padding: 40px 60px 40px 0px;
+  padding: 2rem 2rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  grid-gap: 1em;
+  grid-gap: 1rem;
   grid-template-areas: 
-  ". cover-img cover-heading ."
-  ". cover-img cover-info .";
+  "cover-img cover-heading"
+  "cover-img cover-info";
 }
 
 p {
@@ -113,13 +122,15 @@ h1 {
   display: grid;
   background-color: #0174CC;  
   color: white;
-  padding: 20px 0px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  grid-gap: 1em;
-  grid-template-areas: 
-  ". ";
+  padding: 2rem 2rem;
+  grid-template-columns: none;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 1rem;
+  /* grid-template-areas: 
+  ". about-et ."
+  ". about-to ."; */
 }
 
 
