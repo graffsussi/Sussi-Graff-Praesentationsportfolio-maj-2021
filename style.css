@@ -236,28 +236,14 @@ grid-area: produkt6;
 }
 
 .contact-wrap {
-  /* justify-content: center;
-  align-items: center; */
   padding: 14rem 4rem;
   width: 50%;
   margin: auto;  
 }
 
-.form {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 3rem;
-  grid-template-areas: 
-  "felter"
-  "knap";
-  /* justify-content: center;
-  align-items: center; */
-}
-
-.felter {
-  /* justify-content: center;
-  align-items: center; */
-  /* Hvorfor vil felter ikke centreres? Jeg har prøver fire steder nu */
+.contact-wrap h1 {
+  text-align: center;
+  Hvordan får jeg resten centreret?
 }
 
 input[type=text], select, textarea {
@@ -268,8 +254,6 @@ input[type=text], select, textarea {
   box-sizing: border-box;
   border: 1px solid #27282B;
   border-radius: 2rem; 
-  /* justify-content: center;
-  align-items: center; */
 }
 
 input[type=submit] {
