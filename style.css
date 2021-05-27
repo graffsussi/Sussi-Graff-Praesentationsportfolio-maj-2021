@@ -43,9 +43,9 @@ header {
   text-decoration: none;
 }
 
-.nav ul il {
+/* .nav ul il {
   padding: 0px 20px;
-}
+} */
 
 .nav ul li a {
   color: white;
@@ -62,15 +62,49 @@ li a {
 
 /* COVER */
 
-.grid {
+.cover-container {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
   grid-gap: 1em;
+  grid-template-areas: 
+  ". cover-img cover-heading ."
+  ". cover-img cover-info .";
+  padding: 20px;
+  background-color: #E3CD26;  
 }
 
-.cover_img {
-  
+/* .aside {
+  grid-area: aside;
 }
+
+.bside {
+  grid-area: bside;
+} */
+
+.cover-img {
+  grid-area: cover-img;
+}
+
+.cover-heading {
+  grid-area: cover-heading;
+}
+
+.cover-info {
+  grid-area: cover-info;
+}
+
+
+
+
+
+
+
+* {
+  border: 1px solid black;
+}
+
+
 
 
 
