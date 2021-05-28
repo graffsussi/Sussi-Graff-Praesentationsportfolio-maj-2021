@@ -13,7 +13,8 @@ header {
   align-items: center;
   position: fixed;
   width: 100%;
-  padding: 2rem 2rem;
+  padding: 1rem;
+  margin: 0rem 1rem;
   background-color: #27282B;
 }
   
@@ -282,13 +283,24 @@ footer {
   color: white;
 }
 
+.footer h1, p {
+  padding: 1rem;
+}
+
 .some-icons {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 1rem;
   align-items: center;
+  gap: 1rem;
   padding: 1rem;
+  font-size: 1.3rem;
   /* Du skal lave en flexbox for at få tlf og email ved siden af hinanden. */
   /* Kig lige på det her med at få plads mellem tingene. */
+}
+
+.some-icons a {
+color: white;
+list-style-type: none;
+text-decoration: none;
 }
