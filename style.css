@@ -47,7 +47,8 @@ header {
 /* COVER */
 
 .cover-container {
-  background-color: #E3CD26;  
+  background: rgb(227,205,38);
+  background: linear-gradient(90deg, rgba(227,205,38,1) 75%, rgba(1,116,204,1) 100%); 
 }
 
 .cover-wrap {
@@ -146,11 +147,15 @@ header {
 }
 
 .CH-icon {
+  align-items: center;
   padding: 1rem;
+  width: 50%;
 }
 
 .FIUK-icon {
+  align-items: center;
   padding: 1rem;
+  width: 50%
 }
 
 /* PORTFOLIO */
@@ -234,7 +239,7 @@ grid-area: produkt6;
 }
 
 .contact-wrap {
-  padding: 14rem 4rem;
+  padding: 4rem 4rem;
   width: 50%;
   margin: auto;  
 }
