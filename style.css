@@ -11,10 +11,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
-  padding: 1rem;
-  margin: 0rem 1rem;
+  padding: 1rem 0rem;
+  /* margin: 0rem 1rem; */
   background-color: #27282B;
 }
   
@@ -49,6 +49,28 @@ header {
 .cover-container {
   background: rgb(227,205,38);
   background: linear-gradient(180deg, rgba(227,205,38,1) 75%, rgba(1,116,204,1) 100%); 
+  position: relative;
+}
+
+/* .cover.pic {
+  display: flex;
+}
+
+.cover.pic img {
+  flex-grow: 1;
+  object-fit: cover;
+} */
+
+.cover-pic {
+  position: absolute;
+  top: 0rem; 
+  left: 0rem; 
+  max-width: 60%;
+  min-width: 60%;
+}
+
+.cover-pic img {
+  /* display: flex;  */
 }
 
 .cover-wrap {
@@ -63,15 +85,6 @@ header {
   width: 50%;
   margin: auto;  
   color: white;
-}
-
-.cover-img {
-  grid-area: cover-img;
-  max-width: ;
-}
-
-.cover-img img {
-  width: 100%;
 }
 
 .cover-heading {
