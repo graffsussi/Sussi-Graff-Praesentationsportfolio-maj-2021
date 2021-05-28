@@ -49,31 +49,22 @@ header {
 .cover-container {
   background: rgb(227,205,38);
   background: linear-gradient(180deg, rgba(227,205,38,1) 75%, rgba(1,116,204,1) 100%); 
-  position: relative;
 }
-
-/* .cover.pic {
-  display: flex;
-}
-
-.cover.pic img {
-  flex-grow: 1;
-  object-fit: cover;
-} */
 
 .cover-pic {
-  position: absolute;
-  top: 0rem; 
-  left: 0rem; 
-  max-width: 60%;
-  min-width: 60%;
 }
 
 .cover-pic img {
   /* display: flex;  */
+  position: absolute;
+  bottom: 0rem; 
+  left: 0rem; 
+  max-width: 50%;
+  min-width: 50%;
 }
 
 .cover-wrap {
+  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
@@ -98,6 +89,7 @@ header {
 /* ABOUT */
 
 .about-container {
+  position: relative;
   background-color: #0174CC;  
 }
 
@@ -111,7 +103,6 @@ header {
   padding: 14rem 4rem;
   width: 50%;
   margin: auto;  
-  
   color: white;
 }
 
@@ -175,7 +166,6 @@ header {
 
 .portfolio-container {
   background-color: #0174CC;
-  /* Hvordan laver man en gradient? */
 }
 
 .portfolio-wrap {
@@ -239,6 +229,10 @@ grid-area: produkt6;
   text-align: center;
   color: white;
 } 
+
+.action-wrap img {
+  
+}
 
 .action-wrap p {
   margin: 2rem 0rem;
