@@ -11,7 +11,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
   padding: 1rem 0rem;
   /* margin: 0rem 1rem; */
@@ -67,7 +67,6 @@ header {
 }
 
 .cover-pic img {
-  /* display: flex;  */
   position: absolute;
   bottom: 0rem; 
   left: 0rem; 
@@ -229,7 +228,7 @@ grid-area: produkt6;
 
 .action-wrap img {
   position: absolute;
-  width: 13rem;
+  width: 13 rem;
   bottom: 0rem;
   right: -7rem;
 }
@@ -242,7 +241,7 @@ grid-area: produkt6;
 
 .contact-container {
   background: rgb(0,143,0);
-background: linear-gradient(180deg, rgba(0,143,0,1) 60%, rgba(39,40,43,1) 100%);
+  background: linear-gradient(180deg, rgba(0,143,0,1) 60%, rgba(39,40,43,1) 100%);
   color: white;
 }
 
