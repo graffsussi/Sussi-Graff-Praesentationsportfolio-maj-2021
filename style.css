@@ -11,10 +11,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   padding: 1rem 0rem;
-  /* margin: 0rem 1rem; */
   background-color: #27282B;
 }
   
@@ -22,7 +21,7 @@ header {
 
 .brand {
   text-align: left;
-  padding: 0rem 1rem;
+  padding: 0rem 2rem;
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
@@ -33,9 +32,9 @@ header {
   display: flex;
   flex-direction: row;
   text-align: center;
-  /* Hvorfor skal noget af det her i nav ul frem for nav ul li a? */
   list-style-type: none;
   text-decoration: none;
+  padding: 0rem 2rem;
 }
 
 .nav ul li a {
@@ -85,7 +84,7 @@ header {
 /* ABOUT */
 
 .about-container {
-  background-color: #0174CC;  
+  background-color: #0174CC; 
 }
 
 .about-wrap {
@@ -109,6 +108,7 @@ header {
 
 .citat-container {
   background-color: #0174CC;  
+  /* position: relative; */
 }
 
 .citat-wrap {
@@ -121,10 +121,30 @@ header {
   color: white;
 }
 
+.citat-wrap h2 {
+  text-shadow: 2px 2px #27282B;
+}
+
+.citat-wrap img {
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  /* position: absolute;
+  bottom: 50%;
+  left: 10rem; */
+}
+
 /* COLLAB */
 
 .collab-container {
   background-color: #0174CC;  
+}
+
+.collab-container img {
+  top: 15%;
+  left: 20%;
+  width: 60%;
+  z-index: 700;
 }
 
 .collab-wrap {
@@ -142,18 +162,17 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  padding: 1rem 1rem;
+  gap: 2rem;
 }
 
 .CH-icon {
   align-items: center;
-  padding: 1rem;
   width: 50%;
 }
 
 .FIUK-icon {
   align-items: center;
-  padding: 1rem;
   width: 50%
 }
 
@@ -307,12 +326,16 @@ footer {
   gap: 1rem;
   padding: 1rem;
   font-size: 1.3rem;
-  /* Du skal lave en flexbox for at få tlf og email ved siden af hinanden. */
-  /* Kig lige på det her med at få plads mellem tingene. */
 }
 
 .some-icons a {
 color: white;
 list-style-type: none;
 text-decoration: none;
+}
+
+.copyright {
+  background-color: #27282B;
+  color: white;
+  padding: 0rem;
 }
