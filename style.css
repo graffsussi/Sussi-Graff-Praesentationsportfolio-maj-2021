@@ -1,7 +1,7 @@
 * {
   margin: 0rem;
   padding: 0rem;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   font-family: 'Bahnschrift';
 }
 
@@ -47,7 +47,7 @@ header {
 
 .cover-container {
   background: rgb(227,205,38);
-  background: linear-gradient(180deg, rgba(227,205,38,1) 75%, rgba(1,116,204,1) 100%); 
+  background: linear-gradient(180deg, rgba(227,205,38,1) 50%, rgba(1,116,204,1) 100%); 
 }
 
 .cover-wrap {
@@ -85,6 +85,7 @@ header {
 
 .about-container {
   background-color: #0174CC; 
+  position: relative;
 }
 
 .about-wrap {
@@ -99,9 +100,14 @@ header {
   margin: auto;  
   color: white;
 }
-
-.about-two {
-  text-align: right;
+.about-container img {
+  position: absolute;
+  width: 20%;
+  top: 20%;
+  right: 0%;
+}
+.about-one, about-two {
+  text-align: center;
 }
 
 /* CITAT */
@@ -121,17 +127,10 @@ header {
   color: white;
 }
 
-.citat-wrap h2 {
-  text-shadow: 2px 2px #27282B;
-}
-
 .citat-wrap img {
   justify-content: center;
   align-items: center;
   margin: 2rem;
-  /* position: absolute;
-  bottom: 50%;
-  left: 10rem; */
 }
 
 /* COLLAB */
@@ -152,7 +151,7 @@ header {
   align-items: center;
   padding: 14rem 4rem;
   width: 50%;
-  margin: auto;  
+  margin: auto;
   text-align: center;
   color: white;
 }
@@ -162,8 +161,7 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 1rem 1rem;
-  gap: 2rem;
+  padding: 3rem 0rem;
 }
 
 .CH-icon {
@@ -179,7 +177,7 @@ header {
 /* PORTFOLIO */
 
 .portfolio-container {
-  background: rgb(1,116,204);
+  background: rgb(1, 116, 204);
   background: linear-gradient(180deg, rgb(1, 116, 204) 20%, rgb(157, 212, 255) 100%);
 }
 
@@ -342,7 +340,14 @@ text-decoration: none;
 }
 
 .copyright {
+  position: relative;
   background-color: #27282B;
   color: white;
   padding: 0rem;
+}
+.copyright img {
+  position: absolute;
+  width: 30%;
+  bottom: 0%;
+  right: 0%;
 }
