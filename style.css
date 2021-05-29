@@ -179,7 +179,8 @@ header {
 /* PORTFOLIO */
 
 .portfolio-container {
-  background-color: #0174CC;
+  background: rgb(1,116,204);
+  background: linear-gradient(180deg, rgb(1, 116, 204) 20%, rgb(157, 212, 255) 100%);
 }
 
 .portfolio-wrap {
@@ -226,6 +227,12 @@ grid-area: produkt5;
 
 .produkt6 {
 grid-area: produkt6;
+}
+
+.bakker {
+  width: 100%;
+  background: #9dd4ff;
+  ;
 }
 
 /* ACTION */
