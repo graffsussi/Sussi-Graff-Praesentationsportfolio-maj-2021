@@ -100,13 +100,15 @@ header {
   margin: auto;  
   color: white;
 }
+
 .about-container img {
   position: absolute;
   width: 20%;
-  top: 20%;
+  bottom: 0%;
   right: 0%;
 }
-.about-one, about-two {
+
+.about-one, .about-two {
   text-align: center;
 }
 
@@ -179,13 +181,20 @@ header {
 .portfolio-container {
   background: rgb(1, 116, 204);
   background: linear-gradient(180deg, rgb(1, 116, 204) 20%, rgb(157, 212, 255) 100%);
+  position: relative;
+}
+
+.portfolio-sky {
+  position: absolute;
+  width: 20%;
+  top: -10%;
+  left: 0%;
 }
 
 .portfolio-wrap {
-  
-  justify-content: center;
+   justify-content: center;
   align-items: center;
-  padding: 14rem 1rem;
+  padding: 7rem 1rem;
   width: 90%;
   margin: auto;  
   text-align: center;
@@ -204,27 +213,29 @@ header {
 }
 
 .produkt1 {
-grid-area: produkt1;
+  grid-area: produkt1;
 }
 
 .produkt2 {
-grid-area: produkt2;
+  grid-area: produkt2;
 }
 
 .produkt3 {
-grid-area: produkt3;
+  grid-area: produkt3;
+  /* Lav responsiv. */
 }
 
 .produkt4 {
-grid-area: produkt4;
+  grid-area: produkt4;
+  /* Lav responsiv. */
 }
 
 .produkt5 {
-grid-area: produkt5;
+  grid-area: produkt5;
 }
 
 .produkt6 {
-grid-area: produkt6;
+  grid-area: produkt6;
 }
 
 .bakker {
@@ -254,7 +265,7 @@ grid-area: produkt6;
   position: absolute;
   width: 13 rem;
   bottom: 0rem;
-  right: -7rem;
+  left: -7rem;
 }
 
 .action-wrap p {
@@ -270,7 +281,7 @@ grid-area: produkt6;
 }
 
 .contact-wrap {
-  padding: 4rem 4rem;
+  padding: 0rem 4rem;
   width: 50%;
   margin: auto;  
 }
@@ -334,9 +345,9 @@ footer {
 }
 
 .some-icons a {
-color: white;
-list-style-type: none;
-text-decoration: none;
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .copyright {
@@ -347,7 +358,7 @@ text-decoration: none;
 }
 .copyright img {
   position: absolute;
-  width: 30%;
+  width: 27%;
   bottom: 0%;
-  right: 0%;
+  right: 3%;
 }
