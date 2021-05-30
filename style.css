@@ -48,10 +48,10 @@ header {
 .cover-container {
   background: rgb(227,205,38);
   background: linear-gradient(180deg, rgba(227,205,38,1) 50%, rgba(1,116,204,1) 100%); 
+  position: relative;
 }
 
 .cover-wrap {
-  position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
@@ -67,8 +67,8 @@ header {
 
 .cover-pic img {
   position: absolute;
-  bottom: 0rem; 
-  left: 0rem; 
+  bottom: 0%; 
+  left: 0%; 
   max-width: 50%;
   min-width: 50%;
 }
@@ -210,38 +210,51 @@ header {
   "produkt1 produkt2"
   "produkt3 produkt4"
   "produkt5 produkt6";
+  justify-items: center;
+  align-items: center
+  ;
 }
 
-.produkt1 {
+.produkt1 img{
   grid-area: produkt1;
+  width: 20rem;
+  height: auto;
 }
 
-.produkt2 {
+.produkt2 img {
   grid-area: produkt2;
+  width: 20rem;
+  height: auto;
 }
 
-.produkt3 {
+.produkt3 iframe{
   grid-area: produkt3;
-  /* Lav responsiv. */
+  width: 20rem;
+  height: auto;
 }
 
-.produkt4 {
+.produkt4 iframe {
   grid-area: produkt4;
-  /* Lav responsiv. */
+  width: 20rem;
+  height: auto;
 }
 
-.produkt5 {
+.produkt5 img {
   grid-area: produkt5;
+  width: 20rem;
+  height: auto;
 }
 
-.produkt6 {
+
+.produkt6 img {
   grid-area: produkt6;
+  width: 20rem;
+  height: auto;
 }
 
 .bakker {
   width: 100%;
   background: #9dd4ff;
-  ;
 }
 
 /* ACTION */
