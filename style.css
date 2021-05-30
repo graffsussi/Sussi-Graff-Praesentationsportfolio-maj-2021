@@ -17,7 +17,7 @@ header {
   background-color: #27282B;
 }
   
-@import url('http://www.fonts.cdnfonts.com/css/bahnschrift');
+@import url(http://www.fonts.cdnfonts.com/css/bahnschrift);
 
 .brand {
   text-align: left;
@@ -217,38 +217,38 @@ header {
 
 .produkt1 img{
   grid-area: produkt1;
-  width: 40rem;
+  width: 20rem;
   height: auto;
 }
 
 .produkt2 img {
   grid-area: produkt2;
-  width: 40rem;
+  width: 20rem;
   height: auto;
 }
 
 .produkt3 iframe{
   grid-area: produkt3;
-  width: 40rem;
+  width: 20rem;
   height: 20rem;
 }
 
 .produkt4 iframe {
   grid-area: produkt4;
-  width: 40rem;
+  width: 20rem;
   height: 20rem;
 }
 
 .produkt5 img {
   grid-area: produkt5;
-  width: 40rem;
+  width: 20rem;
   height: auto;
 }
 
 
 .produkt6 img {
   grid-area: produkt6;
-  width: 40rem;
+  width: 20rem;
   height: auto;
 }
 
@@ -276,7 +276,7 @@ header {
 
 .action-wrap img {
   position: absolute;
-  width: 13 rem;
+  width: 13rem;
   bottom: 0rem;
   left: -7rem;
 }
@@ -309,7 +309,7 @@ input[type=text], select, textarea {
   width: 100%;
   resize: none;
   box-sizing: border-box;
-  border: 1px solid #27282B;
+  border: 1px solid #ffffff;
   border-radius: 2rem; 
 }
 
